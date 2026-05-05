@@ -29,25 +29,26 @@ body{
 .nav a:hover{
     color:black;
 }
-.hero{
+.right{
     height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: cornsilk;
+    background-color: blanchedalmond;
+    width: 100vh;
 }
-.hero h1{
+.right h1{
     font-size: 30px;
     color:green;
     margin-bottom: -15px;
 }
-.hero p{
+.right p{
     font-size: 20px;
     color: darkblue;
     margin-bottom: 20px;
 }
-.hero button{
+.right button{
     padding: 10px 20px;
     border:none;
     cursor: pointer;
@@ -56,8 +57,16 @@ body{
     font-size: 20px;
     border-radius: 10px;
 }
-.hero button:hover{
+.right button:hover{
     background-color: white;
     color:blue;
     transform: scale(1.1);
+}
+.hero{
+    display: flex;
+    background-color: blanchedalmond;
+}
+.left img{
+    height: 700px;
+    width: 800px;
 }
