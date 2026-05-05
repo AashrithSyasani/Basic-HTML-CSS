@@ -37,7 +37,7 @@ body{
     align-items: center;
     background-color: blanchedalmond;
     width: 100vh;
-}
+} 
 .right h1{
     font-size: 30px;
     color:green;
@@ -65,8 +65,10 @@ body{
 .hero{
     display: flex;
     background-color: blanchedalmond;
+    align-items: center;
+    justify-content: center;
 }
 .left img{
     height: 700px;
-    width: 800px;
+    width: 700px;
 }
